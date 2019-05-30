@@ -2,10 +2,10 @@
 Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
 
 ## Features of Machine Learning-
-**1.** It uses the data to detect patterns in a dataset and adjust program actions accordingly.
-**2.** It focuses on the developement of computer program that can teach themselves to grow and change when exposed to new data.
-**3.** It enables computers to find hidden insights using iterative alogrith without being explicitly programmed.
-**4.** Machine Learning is a method of data analysis that automates analytical model building.
+1. It uses the data to detect patterns in a dataset and adjust program actions accordingly.
+2. It focuses on the developement of computer program that can teach themselves to grow and change when exposed to new data.
+3. It enables computers to find hidden insights using iterative alogrith without being explicitly programmed.
+4. Machine Learning is a method of data analysis that automates analytical model building.
 
 ## Some machine learning methods
 Machine learning algorithms are often categorized as supervised or unsupervised.
@@ -54,14 +54,19 @@ It learns from given data and find insights. According to data it makes changes 
  1. **Supervised Learning-**
  
 	  1.1. **Linear Regression**
+
 	  1.2. **Logistic Regression**
+
 	  1.3. **Decision Tree**
+
 	  1.4. **Random Forest**
+
 	  1.5. **Naive Bayes Classifier**
 	 
 2. **Unsupervised learning-** 
 
 	2.1. **k-means** for clustering problems
+
 	2.2. **Apriori algorithm** for association rule learning problems
 
 3. **Semi-Supervised Learning**
