@@ -33,10 +33,13 @@ If we don’t square the error, then positive and negative point will cancel out
 For model with one predictor,
 
 **Intercept Calculation-**
+
 ![enter image description here](https://cdn-images-1.medium.com/max/1600/1*1evY0PuCUENCpDP_QRplig.png)
+
 or c = Y_mean - m*x_mean
 
 **Co-efficient Formula-**
+
 ![enter image description here](https://cdn-images-1.medium.com/max/1600/1*Cx1Yej9zLVI1O16I3mODqA.png)
 
 or m = summation[(x-mean_x)(y-mean_y)] % summation[(x-mean_x)**2]
