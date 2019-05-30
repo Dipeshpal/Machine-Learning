@@ -1,6 +1,12 @@
 # Machine Learning
 Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
 
+## Features of Machine Learning-
+1. It uses the data to detect patterns in a dataset and adjust program actions accordingly.
+2. It focuses on the developement of computer program that can teach themselves to grow and change when exposed to new data.
+3. It enables computers to find hidden insights using iterative alogrith without being explicitly programmed.
+4. Machine Learning is a method of data analysis that automates analytical model building.
+
 ### Some machine learning methods
 Machine learning algorithms are often categorized as supervised or unsupervised.
 
@@ -11,3 +17,5 @@ Machine learning algorithms are often categorized as supervised or unsupervised.
 3. Semi-supervised machine learning algorithms fall somewhere in between supervised and unsupervised learning, since they use both labeled and unlabeled data for training – typically a small amount of labeled data and a large amount of unlabeled data. The systems that use this method are able to considerably improve learning accuracy. Usually, semi-supervised learning is chosen when the acquired labeled data requires skilled and relevant resources in order to train it / learn from it. Otherwise, acquiringunlabeled data generally doesn’t require additional resources.
 
 4. Reinforcement machine learning algorithms is a learning method that interacts with its environment by producing actions and discovers errors or rewards. Trial and error search and delayed reward are the most relevant characteristics of reinforcement learning. This method allows machines and software agents to automatically determine the ideal behavior within a specific context in order to maximize its performance. Simple reward feedback is required for the agent to learn which action is best; this is known as the reinforcement signal.
+
+
