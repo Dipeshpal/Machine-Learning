@@ -1,5 +1,6 @@
 # Machine Learning
 Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
+![enter image description here](https://cdn-images-1.medium.com/max/1200/1*ZkZS46p7Lbw-PDBtPMfEEw.jpeg)
 
 ## Features of Machine Learning-
 1. It uses the data to detect patterns in a dataset and adjust program actions accordingly.
@@ -52,11 +53,45 @@ It learns from given data and find insights. According to data it makes changes 
 
 
 ## Types of Problems in Machine Learning-
+1.  **Supervised Learning**-
+	
+	1.1. **Classification**
+	
+	1.2. **Regression**
+	
+2. **Unsupervised Learning**
+	
+	2.1. **Clustering**
+	2.2. **Association**
+
+**Lets Understand in Detail-**
+
 ####  1. Supervised Learning-
 Supervised learning problems can be further grouped into regression and classification problems.
 
+Supervised learning is where you have input variables (x) and an output variable (Y) and you use an algorithm to learn the mapping function from the input to the output.
+
+Y = f(X)
+
+The goal is to approximate the mapping function so well that when you have new input data (x) that you can predict the output variables (Y) for that data.
+
+It is called supervised learning because the process of an algorithm learning from the training dataset can be thought of as a teacher supervising the learning process. We know the correct answers, the algorithm iteratively makes predictions on the training data and is corrected by the teacher. Learning stops when the algorithm achieves an acceptable level of performance.
+
 -   **Classification**: A classification problem is when the output variable is a category, such as “red” or “blue” or “disease” and “no disease”.
 -   **Regression**: A regression problem is when the output variable is a real value, such as “dollars” or “weight”.
+
+####  2. Unsupervised Learning-
+Unsupervised learning is where you only have input data (X) and no corresponding output variables.
+
+The goal for unsupervised learning is to model the underlying structure or distribution in the data in order to learn more about the data.
+
+These are called unsupervised learning because unlike supervised learning above there is no correct answers and there is no teacher. Algorithms are left to their own devises to discover and present the interesting structure in the data.
+
+Unsupervised learning problems can be further grouped into clustering and association problems.
+
+-   **Clustering**: A clustering problem is where you want to discover the inherent groupings in the data, such as grouping customers by purchasing behavior.
+-   **Association**: An association rule learning problem is where you want to discover rules that describe large portions of your data, such as people that buy X also tend to buy Y.
+
 
 ## Algorithms-
  1. **Supervised Learning-**
