@@ -96,7 +96,7 @@ Unsupervised learning problems can be further grouped into clustering and associ
 ## Algorithms-
  1. **Supervised Learning-**
  
-	  1.1. **Linear Regression**
+	  1.1. **[Linear Regression](https://github.com/Dipeshpal/Machine-Learning/tree/master/Linear%20Regression)**
 
 	  1.2. **Logistic Regression**
 
@@ -106,7 +106,7 @@ Unsupervised learning problems can be further grouped into clustering and associ
 
 	  1.5. **Naive Bayes Classifier**
 	  
-	  1.6. -   **Support vector machines** for classification problems.
+	  1.6. **Support vector machines** for classification problems.
 	 
 2. **Unsupervised learning-** 
 
