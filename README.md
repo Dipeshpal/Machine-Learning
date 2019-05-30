@@ -52,6 +52,7 @@ It learns from given data and find insights. According to data it makes changes 
 
 ## Algorithms-
  1. **Supervised Learning-**
+ 
 	  1.1. **Linear Regression**
 	  1.2. **Logistic Regression**
 	  1.3. **Decision Tree**
@@ -59,6 +60,7 @@ It learns from given data and find insights. According to data it makes changes 
 	  1.5. **Naive Bayes Classifier**
 	 
 2. **Unsupervised learning-** 
+
 	2.1. **k-means** for clustering problems
 	2.2. **Apriori algorithm** for association rule learning problems
 
