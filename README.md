@@ -94,6 +94,7 @@ Unsupervised learning problems can be further grouped into clustering and associ
 
 
 ## Algorithms-
+We wil talk about following algorithm. We will also talk about Mathematics behind it and Implementation in Python.
  1. **Supervised Learning-**
  
 	  1.1. **[Linear Regression](https://github.com/Dipeshpal/Machine-Learning/tree/master/Linear%20Regression)**
