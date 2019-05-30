@@ -50,6 +50,14 @@ It learns from given data and find insights. According to data it makes changes 
  4. [Pandas](https://pandas.pydata.org/)
  5. [Numpy](https://www.numpy.org/)
 
+
+## Types of Problems in Machine Learning-
+####  1. Supervised Learning-
+Supervised learning problems can be further grouped into regression and classification problems.
+
+-   **Classification**: A classification problem is when the output variable is a category, such as “red” or “blue” or “disease” and “no disease”.
+-   **Regression**: A regression problem is when the output variable is a real value, such as “dollars” or “weight”.
+
 ## Algorithms-
  1. **Supervised Learning-**
  
@@ -62,6 +70,8 @@ It learns from given data and find insights. According to data it makes changes 
 	  1.4. **Random Forest**
 
 	  1.5. **Naive Bayes Classifier**
+	  
+	  1.6. -   **Support vector machines** for classification problems.
 	 
 2. **Unsupervised learning-** 
 
