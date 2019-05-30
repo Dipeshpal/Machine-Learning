@@ -85,3 +85,7 @@ This tells how much the data point move around the mean.
 
 ![](https://cdn-images-1.medium.com/max/800/1*LXAc7FPLOgB1L3IqSUKl5A.png)
 
+
+# Implementations with Python-
+1. **Single Variable Linear Regression:** First we will predict Price of the Houses according to Area of House (One Input and One Output). We will solve this by **Manually** and by using **Sklearn** also.
+2. **Multivariate Linear Regression-** Multiple Input (area of house, distance of house from highway etc.) and Single Output. By using **Sklearn**.
