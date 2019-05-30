@@ -54,3 +54,34 @@ or m = summation[(x-mean_x)(y-mean_y)] % summation[(x-mean_x)**2]
 -   If the model does not include x=0, then the prediction will become meaningless with only b0. For example, we have a dataset that relates height(x) and weight(y). Taking x=0(that is height as 0), will make equation have only b0 value which is completely meaningless as in real-time height and weight can never be zero. This resulted due to considering the model values beyond its scope.
 -   If the model includes value 0, then ‘b0’ will be the average of all predicted values when x=0. But, setting zero for all the predictor variables is often impossible.
 -   The value of b0 guarantee that residual have mean zero. If there is no ‘b0’ term, then regression will be forced to pass over the origin. Both the regression co-efficient and prediction will be biased.
+
+## Residual Analysis-
+
+Let’s explain the concept of residue through an example. Consider, we have a dataset which predicts sales of juice when given a temperature of place. Value predicted from regression equation will always have some difference with the actual value. Sales will not match exactly with the true output value. This difference is called as residue.
+
+Residual plot helps in analyzing the model using the values of residues. It is plotted between predicted values and residue. Their values are standardized. The distance of the point from 0 specifies how bad the prediction was for that value. If the value is positive, then the prediction is low. If the value is negative, then the prediction is high. 0 value indicates prefect prediction. Detecting residual pattern can improve the model.
+
+**_R-Squared value_**
+
+This value ranges from 0 to 1. Value ‘1’ indicates predictor perfectly accounts for all the variation in Y. Value ‘0’ indicates that predictor ‘x’ accounts for no variation in ‘y’.
+
+1. **Regression sum of squares (SSR)**
+
+This gives information about how far estimated regression line is from the horizontal ‘no relationship’ line (average of actual output).
+
+![](https://cdn-images-1.medium.com/max/800/1*eXRB9iStTLFtrPkSfbWEHg.png)
+
+
+2. **Sum of Squared error (SSE)**
+
+How much the target value varies around the regression line (predicted value).
+
+![](https://cdn-images-1.medium.com/max/800/1*M7ukJZNTvPd6tQqNXxGGzQ.png)
+
+
+3. **Total sum of squares (SSTO)**
+
+This tells how much the data point move around the mean.
+
+![](https://cdn-images-1.medium.com/max/800/1*LXAc7FPLOgB1L3IqSUKl5A.png)
+
