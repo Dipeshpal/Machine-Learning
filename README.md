@@ -50,3 +50,17 @@ It learns from given data and find insights. According to data it makes changes 
  4. [Pandas](https://pandas.pydata.org/)
  5. [Numpy](https://www.numpy.org/)
 
+## Algorithms-
+ 1. **Supervised Learning-**
+	  1.1. **Linear Regression**
+	  1.2. **Logistic Regression**
+	  1.3. **Decision Tree**
+	  1.4. **Random Forest**
+	  1.5. **Naive Bayes Classifier**
+	 
+2. **Unsupervised learning-** 
+	2.1. **k-means** for clustering problems
+	2.2. **Apriori algorithm** for association rule learning problems
+
+3. **Semi-Supervised Learning**
+4. **Reinforcement Learning**
