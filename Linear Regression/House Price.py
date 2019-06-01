@@ -46,14 +46,16 @@ c = mean_y - (m * mean_x)
 # print(b1, b0)
 
 
-max_x = np.max(x) + 0
-min_x = np.min(y) - 0
+max_x = np.max(x)
+min_y = np.min(y)
 
-X = np.linspace(min_x, max_x, 1000)
+X = np.linspace(max_x, min_y, 20)
 Y = m*X + c
 
 plt.plot(X, Y, color='#58b970', label='Regression Line')
 plt.scatter(x, y, c='#ef5424', label='Scatter Plot')
+plt.scatter(X, Y, c='#58b970', label='Scatter Plot 2')
+
 
 plt.legend()
 plt.show()
