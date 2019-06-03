@@ -27,9 +27,12 @@ import seaborn as sns
 
 bos1 = pd.read_csv('train.csv')
 
-x = bos1["rad"]
+# for col in bos1.columns:
+#     print(col)
+#
+x = bos1["tax"]
 
-print(x)
+# print(x)
 y = bos1["medv"]
 
 
@@ -37,35 +40,38 @@ y = bos1["medv"]
 # From this we can find which param has more relations
 correlations = bos1.corr()
 sns.heatmap(correlations, square=True, cmap="YlGnBu")
-# plt.yticks(rotation=0)
-# plt.xticks(rotation=45)
 plt.show()
-# print(bos1.shape)
-# print(bos1.head())
 
 
-# Mean x and Y
-mean_x = np.mean(x)
-mean_y = np.mean(y)
-
-# Total number of values
-m = len(x)
-
-numer = 0
-denom = 0
-
-for i in range(m):
-    numer += (x[i] - mean_x) * (y[i] - mean_y)
-    denom += (x[i] - mean_x) ** 2
-
-b1 = numer/denom
-b0 = mean_y - (b1*mean_x)
-
-print(b1, b0)
+# from pandas import DataFrame
+# df = DataFrame(bos1, "tax")
+#
+# plt.scatter(df['rad'], df['tax'], color='red')
+# plt.title('rad Price Vs price', fontsize=14)
+# plt.xlabel('rad Rate', fontsize=14)
+# plt.ylabel('price', fontsize=14)
+# plt.grid(True)
+# plt.show()
 
 
-plt.plot(x,  y, color='#58b970', label='Regression Line')
-plt.scatter(x, y, c='#ef5424', label='Scatter Plot')
+a = x.as_matrix()
+b = y.as_matrix()
 
-plt.legend()
-plt.show()
+print(type(a))
+print(type(b))
+
+print(a.shape)
+print(b.shape)
+
+p = np.reshape(a, (-1, 1))
+q = np.reshape(b, (-1, 1))
+print(p.shape)
+
+# with sklearn
+r = 201
+from sklearn import linear_model
+regr = linear_model.LinearRegression()
+print(p[r], q[r])
+regr.fit(p, q)
+
+print(regr.predict([p[r]]))
