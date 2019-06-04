@@ -92,8 +92,8 @@ This tells how much the data point move around the mean.
 
 We will fit our model with dataset "headbrain" dataset-
   
-   1.1. [Single Variable Linear Regression without using Sklearn](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/Linear%20Regression%20without%20Using%20Sklearn.md)
+  1.1. [Single Variable Linear Regression without using Sklearn](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/Linear%20Regression%20without%20Using%20Sklearn.md)
   
-   1.2. [Single Variable Linear Regression with Sklearn](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/Linear%20Regression%20with%20Sklearn.md)
+  1.2. [Single Variable Linear Regression with Sklearn](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/Linear%20Regression%20with%20Sklearn.md)
    
 2. **Multivariate Linear Regression-** Multiple Input (area of house, distance of house from highway etc.) and Single Output. By using **Sklearn**.
