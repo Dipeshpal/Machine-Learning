@@ -38,10 +38,3 @@ Y_pred = reg.predict(x_test)
 
 r2_score = reg.score(x, y)
 print("r2_score:", r2_score)
-
-plt.scatter(y_test, Y_pred)
-plt.plot(y_test, Y_pred, color='#58b970', label='Regression Line')
-plt.xlabel("Prices")
-plt.ylabel("Predicted prices")
-plt.title("Prices vs Predicted prices")
-plt.show()
