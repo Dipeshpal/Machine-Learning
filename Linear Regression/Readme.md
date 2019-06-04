@@ -1,5 +1,6 @@
 
-# Linear regression
+
+# Linear Regression
 Linear regression is useful for finding relationship between two continuous variables. One is predictor or independent variable and other is response or dependent variable. It looks for statistical relationship but not deterministic relationship. Relationship between two variables is said to be deterministic if one variable can be accurately expressed by the other.
 
 Linear regression is useful for finding relationship between two continuous variables. One is predictor or independent variable and other is response or dependent variable. It looks for statistical relationship but not deterministic relationship. Relationship between two variables is said to be deterministic if one variable can be accurately expressed by the other.
@@ -87,5 +88,5 @@ This tells how much the data point move around the mean.
 
 
 # Implementations with Python-
-1. **Single Variable Linear Regression:** First we will predict Price of the Houses according to Area of House (One Input and One Output). We will solve this by **Manually** and by using **Sklearn** also.
+1. **Single Variable Linear Regression:** First we will predict **Weight of Brain** according to **Size of Brain**. We will solve this problem **Manually** and **Sklearn**.
 2. **Multivariate Linear Regression-** Multiple Input (area of house, distance of house from highway etc.) and Single Output. By using **Sklearn**.
