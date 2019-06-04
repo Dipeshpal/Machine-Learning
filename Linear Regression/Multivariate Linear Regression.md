@@ -53,4 +53,67 @@ Harrison, D. and Rubinfeld, D.L. (1978) Hedonic prices and the demand for clean 
 Belsley D.A., Kuh, E. and Welsch, R.E. (1980) Regression Diagnostics. Identifying Influential Data and Sources of Collinearity. New York: Wiley.
 
 ---------------------
+
 **Code-**
+
+```
+# Import Libraries  
+import pandas as pd  
+import matplotlib.pyplot as plt  
+import seaborn as sns  
+from sklearn.linear_model import LinearRegression  
+from sklearn.model_selection import train_test_split
+```
+
+```
+# load dataset  
+dataset = pd.read_csv('Boston House Dataset.csv')  
+# dropping ALL duplicate values  
+dataset.drop_duplicates(keep=False, inplace=True)
+```
+
+```
+# Correlations Matrix (Visualize Relations between Data)  
+correlations = dataset.corr()  
+sns.heatmap(correlations, square=True, cmap="YlGnBu")  
+plt.title("Correlations)")  
+plt.show()
+```
+
+**Output-**
+
+![Correlations](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/Correlations%20Boston%20House.PNG)
+
+```
+# Getting feature (x) and label(y)  
+x = dataset.iloc[:, 4:-1].values  
+y = dataset.iloc[:, 14].values  
+  
+# Splitting into Training and Testing dataset  
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=0)  
+  
+print(type(x_train), x_train.shape)  
+print(type(y_train), y_train.shape)
+```
+
+**Output-**
+
+![Output 1 Boston House](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/Boston%20House%20Output.PNG)
+
+**Model Fitting-**
+
+```
+# Model Fit  
+reg = LinearRegression()  
+reg = reg.fit(x_train, y_train)  
+  
+Y_pred = reg.predict(x_test)  
+  
+r2_score = reg.score(x, y)  
+print("r2_score:", r2_score)
+```
+
+**Output-**
+
+![Final Output](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/Boston%20House%20Final%20Output.PNG)
+
