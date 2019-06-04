@@ -88,9 +88,12 @@ This tells how much the data point move around the mean.
 
 
 # Implementations with Python-
-1. **Single Variable Linear Regression:** First we will predict **Weight of Brain** according to **Size of Brain**. We will solve this problem **Manually** and **Sklearn**.
+1. **Single Variable Linear Regression:** Single Variable Linear Regression in the type of regression in which only one feature to train the model.
+
+We will fit our model with dataset "headbrain" dataset-
   
    1.1. [Single Variable Linear Regression without using Sklearn](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/Linear%20Regression%20without%20Using%20Sklearn.md)
   
    1.2. [Single Variable Linear Regression with Sklearn](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/Linear%20Regression%20with%20Sklearn.md)
+   
 2. **Multivariate Linear Regression-** Multiple Input (area of house, distance of house from highway etc.) and Single Output. By using **Sklearn**.
