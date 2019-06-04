@@ -156,4 +156,4 @@ R-squared is always between 0 and 100%:
 -   0% indicates that the model explains none of the variability of the response data around its mean.
 -   100% indicates that the model explains all the variability of the response data around its mean
 
-[Next](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/Linear%20Regression%20without%20Using%20Sklearn.md) Python Implementation without using sklearn.
+[Next](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/Linear%20Regression%20with%20Sklearn.md) Python Implementation with sklearn.
