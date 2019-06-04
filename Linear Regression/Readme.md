@@ -97,3 +97,6 @@ This tells how much the data point move around the mean.
 2. **Multivariate Linear Regression-** Multiple Input (area of house, distance of house from highway etc.) and Single Output. By using **Sklearn**.
 
    2.1. [Multivariate Linear Regression by using Sklearn](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/Multivariate%20Linear%20Regression.md)
+
+
+[Next](https://github.com/Dipeshpal/Machine-Learning#algorithms-) Logistic Regression.
