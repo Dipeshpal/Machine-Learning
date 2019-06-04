@@ -1,3 +1,12 @@
+### Exploring dataset-
+
+It has 4 columns and 237 rows . "Gender" and "Age Range" is unwanted (useless) features, "Head Size(cm^3)" is feature that we will use. Our label is "Brain Weight(grams)".
+
+[Download](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/headbrain.csv) or [View](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/headbrain.csv) dataset.
+
+![headbrain dataset](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/headbrain%20dataset.png)
+
+
 ### 1.2. Python Implementation with sklearn-
 
 **Code-** 
