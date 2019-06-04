@@ -5,19 +5,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+
 
 # load dataset
-dataset = pd.read_csv('train.csv')
+dataset = pd.read_csv('Boston House Dataset.csv')
 # dropping ALL duplicate values
 dataset.drop_duplicates(keep=False, inplace=True)
-print("Dataset Head Brain-")
-print(dataset.head())
-print(dataset.shape)
-# print(len(dataset.columns))
 
 
 # Correlations Matrix (Visualize Relations between Data)
-# From this we can find which param has more relations
 correlations = dataset.corr()
 sns.heatmap(correlations, square=True, cmap="YlGnBu")
 plt.title("Correlations, Single Feature here (Area)")
@@ -25,34 +22,26 @@ plt.show()
 
 
 # Getting feature (x) and label(y)
-# From correlations matrix we found Head Size(cm^3) and Brain Weight(grams) are most co-related data
-# x = dataset[[10, 11]].values
-# x = x.reshape((-1, 1))
-# y = dataset["medv"].values
-# y = y.reshape((-1, 1))
-
-x = dataset.iloc[:, 9:11].values
+x = dataset.iloc[:, 4:-1].values
 y = dataset.iloc[:, 14].values
-y = y.reshape(1, -1)
-y = y.T
-print("x: ", x.shape)
-print("y: ", y.shape)
-print("lx: ", len(x))
-print("lx: ", len(y))
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=0)
 
+print(type(x_train), x_train.shape)
+print(type(y_train), y_train.shape)
+
+
+# Model Fit
 reg = LinearRegression()
+reg = reg.fit(x_train, y_train)
 
-reg = reg.fit(x, y)
-
-Y_pred = reg.predict(x)
-
-# plotting graph for model
-plt.plot(x, Y_pred, color='#58b970', label='Regression Line')
-plt.scatter(x, y, c='#ef5424', label='Scatter Plot of Given Data')
-plt.legend()
-plt.show()
+Y_pred = reg.predict(x_test)
 
 r2_score = reg.score(x, y)
-print("m", reg.coef_)
-print("c: ", reg.intercept_)
 print("r2_score:", r2_score)
+
+plt.scatter(y_test, Y_pred)
+plt.plot(y_test, Y_pred, color='#58b970', label='Regression Line')
+plt.xlabel("Prices")
+plt.ylabel("Predicted prices")
+plt.title("Prices vs Predicted prices")
+plt.show()
