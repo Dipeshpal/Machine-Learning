@@ -1,5 +1,6 @@
 
-# Linear regression
+
+# Linear Regression
 Linear regression is useful for finding relationship between two continuous variables. One is predictor or independent variable and other is response or dependent variable. It looks for statistical relationship but not deterministic relationship. Relationship between two variables is said to be deterministic if one variable can be accurately expressed by the other.
 
 Linear regression is useful for finding relationship between two continuous variables. One is predictor or independent variable and other is response or dependent variable. It looks for statistical relationship but not deterministic relationship. Relationship between two variables is said to be deterministic if one variable can be accurately expressed by the other.
@@ -240,6 +241,7 @@ print("R Squared: ", r2)
 **Output-**
 
 ![Output 5](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/Output%205.PNG)
+
 R-squared = Explained variation / Total variation
 
 R-squared is always between 0 and 100%:
