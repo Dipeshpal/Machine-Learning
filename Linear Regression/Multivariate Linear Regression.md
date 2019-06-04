@@ -123,4 +123,4 @@ print("r2_score:", r2_score)
 
 -------
 
-(Next)[https://github.com/Dipeshpal/Machine-Learning#algorithms-] Logistic Regression
+[Next](https://github.com/Dipeshpal/Machine-Learning#algorithms-) Logistic Regression
