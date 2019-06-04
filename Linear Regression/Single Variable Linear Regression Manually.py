@@ -11,16 +11,15 @@ import seaborn as sns
 dataset = pd.read_csv('headbrain.csv')
 # dropping ALL duplicate values
 dataset.drop_duplicates(keep=False, inplace=True)
-print("Dataset Head Brain-")
-print(dataset.head())
-print(dataset.shape)
+print("Dataset head: ", dataset.head())
+print("Dataset shape: ", dataset.shape)
 
 
 # Correlations Matrix (Visualize Relations between Data)
 # From this we can find which param has more relations
 correlations = dataset.corr()
 sns.heatmap(correlations, square=True, cmap="YlGnBu")
-plt.title("Correlations, Single Feature here (Area)")
+plt.title("Correlations")
 plt.show()
 
 
@@ -43,7 +42,6 @@ l = len(x)
 # denominator = summation[(x-mean_x)**2
 numerator = 0
 denominator = 0
-
 for i in range(l):
     numerator += (x[i] - mean_x) * (y[i] - mean_y)
     denominator += (x[i] - mean_x) ** 2
