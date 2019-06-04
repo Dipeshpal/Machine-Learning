@@ -62,6 +62,7 @@ It learns from given data and find insights. According to data it makes changes 
 2. **Unsupervised Learning**
 	
 	2.1. **Clustering**
+	
 	2.2. **Association**
 
 **Lets Understand in Detail-**
