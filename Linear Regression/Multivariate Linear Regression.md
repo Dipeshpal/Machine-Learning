@@ -120,3 +120,7 @@ print("r2_score:", r2_score)
 
 ![Final Output](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/Boston%20House%20Final%20Output.PNG)
 
+
+-------
+
+(Next)[https://github.com/Dipeshpal/Machine-Learning#algorithms-] Logistic Regression
