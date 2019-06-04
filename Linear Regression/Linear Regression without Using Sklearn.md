@@ -1,6 +1,5 @@
-## 1. **Single Variable Linear Regression-**
-Single Variable Linear Regression in the type of regression in which only one feature to train the model.
-We will fit our model with dataset "headbrain"-
+## Python Implementation without using sklearn-
+
 ### Exploring dataset-
 
 It has 4 columns and 237 rows . "Gender" and "Age Range" is unwanted (useless) features, "Head Size(cm^3)" is feature that we will use. Our label is "Brain Weight(grams)".
@@ -9,7 +8,7 @@ It has 4 columns and 237 rows . "Gender" and "Age Range" is unwanted (useless) f
 
 ![headbrain dataset](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/headbrain%20dataset.png)
 
-### 1.1. Python Implementation Manually (without using sklearn)-
+### 1.1. Python Implementation without using sklearn-
 
 **Code-** 
 [Click here](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/Single%20Variable%20Linear%20Regression%20Manually.py) to view source code file
