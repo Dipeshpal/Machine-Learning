@@ -89,3 +89,40 @@ This tells how much the data point move around the mean.
 # Implementations with Python-
 1. **Single Variable Linear Regression:** First we will predict **Weight of Brain** according to **Size of Brain**. We will solve this problem **Manually** and **Sklearn**.
 2. **Multivariate Linear Regression-** Multiple Input (area of house, distance of house from highway etc.) and Single Output. By using **Sklearn**.
+
+## 1. **Single Variable Linear Regression-**
+Single Variable Linear Regression in the type of regression in which only one feature to train the model.
+We will fit our model with dataset "headbrain"-
+### Exploring dataset-
+
+It has 4 columns and 237 rows . "Gender" and "Age Range" is unwanted (useless) features, "Head Size(cm^3)" is feature that we will use. Our label is "Brain Weight(grams)".
+
+[Download](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/headbrain.csv) or [View](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/headbrain.csv) dataset.
+
+![headbrain dataset](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/headbrain%20dataset.png)
+
+### 1.1. Python Implementation Manually (without using sklearn)-
+
+**Code-** 
+[Click here](https://github.com/Dipeshpal/Machine-Learning/blob/master/Linear%20Regression/Single%20Variable%20Linear%20Regression%20Manually.py) to view source code file
+
+```
+# Import Libraries  
+import numpy as np  
+import pandas as pd  
+import matplotlib.pyplot as plt  
+import seaborn as sns
+```
+```
+# load dataset  
+dataset = pd.read_csv('headbrain.csv')  
+# dropping ALL duplicate values  
+dataset.drop_duplicates(keep=False, inplace=True)  
+print("Dataset head: ", dataset.head())  
+print("Dataset shape: ", dataset.shape)
+```
+**Output-**
+
+![
+](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/Output%201.png)
+
