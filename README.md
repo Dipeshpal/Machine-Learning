@@ -8,7 +8,7 @@ Machine learning is an application of artificial intelligence (AI) that provides
 3. It enables computers to find hidden insights using iterative alogrith without being explicitly programmed.
 4. Machine Learning is a method of data analysis that automates analytical model building.
 
-## Some machine learning methods
+## Some machine learning methods-
 Machine learning algorithms are often categorized as supervised or unsupervised.
 
 1. **Supervised machine learning** algorithms can apply what has been learned in the past to new data using labeled examples to predict future events. Starting from the analysis of a known training dataset, the learning algorithm produces an inferred function to make predictions about the output values. The system is able to provide targets for any new input after sufficient training. The learning algorithm can also compare its output with the correct, intended output and find errors in order to modify the model accordingly.
@@ -25,7 +25,7 @@ Machine learning algorithms are often categorized as supervised or unsupervised.
 
 It learns from given data and find insights. According to data it makes changes in program.
 
-## Examples
+## Examples-
 
  1. Google Maps: Find your historical patterns etc.
  2. Uber: Find location, find your patterns etc.
@@ -35,7 +35,7 @@ It learns from given data and find insights. According to data it makes changes 
  6. Self Driving Car: Tesla
  7. **Applications using ML**: Netfilx, Amazon, Hulu etc.
   
-## Machine Learning Life Cycle
+## Machine Learning Life Cycle-
 1. Collecting Data: Collecting data from various sources
 2. Data Wrangling: Formatting raw data. 
 3. Analyse Data: Analysis on data
@@ -43,7 +43,7 @@ It learns from given data and find insights. According to data it makes changes 
 5. Test Algorithm: Test model
 6. Deployment: Deploy in real system
 
-## Important Python Libraries for Machine Learning
+## Important Python Libraries for Machine Learning-
 
  1. [Scikit-learn](https://scikit-learn.org/stable/)
  2. [Seaborn](https://seaborn.pydata.org/)
