@@ -1,6 +1,6 @@
 # Machine Learning
 Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
-![enter image description here](https://cdn-images-1.medium.com/max/1200/1*ZkZS46p7Lbw-PDBtPMfEEw.jpeg)
+![Machine Learning](https://cdn-images-1.medium.com/max/1200/1*ZkZS46p7Lbw-PDBtPMfEEw.jpeg)
 
 ## Features of Machine Learning-
 1. It uses the data to detect patterns in a dataset and adjust program actions accordingly.
@@ -24,6 +24,10 @@ Machine learning algorithms are often categorized as supervised or unsupervised.
 ![enter image description here](https://cdn-images-1.medium.com/max/1600/0*i7crGI3BrI_Xkd3l)
 
 It learns from given data and find insights. According to data it makes changes in program.
+
+## Steps-
+
+![Steps of Machine Learning](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/Steps%20of%20ML.PNG)
 
 ## Examples-
 
