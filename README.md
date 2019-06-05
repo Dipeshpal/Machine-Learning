@@ -155,7 +155,7 @@ We wil talk about following algorithm. We will also talk about Mathematics behin
  
 	  1.1. **[Linear Regression](https://github.com/Dipeshpal/Machine-Learning/tree/master/Linear%20Regression)**
 
-	  1.2. **Logistic Regression**
+	  1.2. **[Logistic Regression](https://github.com/Dipeshpal/Machine-Learning/tree/master/Logistic%20Regression)**
 
 	  1.3. **Decision Tree**
 
