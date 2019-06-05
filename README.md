@@ -29,6 +29,22 @@ It learns from given data and find insights. According to data it makes changes 
 
 ![Steps of Machine Learning](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/Steps%20of%20ML.PNG)
 
+1. Collecting Data: Collecting data from various sources
+2. Data Wrangling: Formatting raw data. 
+3. Analyse Data: Analysis on data
+4. Train Algorithm: Fit model
+5. Test Algorithm: Test model
+6. Deployment: Deploy in real system
+
+
+## Model Fitting
+
+### What is Model Fitting?
+
+Fitting is a measure of how well a machine learning  [model](https://www.datarobot.com/wiki/model/)  generalizes to similar data to that on which it was [trained](https://www.datarobot.com/wiki/training-validation-holdout/). A model that is well-fitted produces more accurate outcomes, a model that is [overfitted](https://www.datarobot.com/wiki/overfitting/)  matches the data too closely, and a model that is [underfitted](https://www.datarobot.com/wiki/underfitting/)  doesn’t match closely enough.
+
+Each machine learning  [algorithm](https://www.datarobot.com/wiki/algorithm/)  has a basic set of parameters that can be changed to improve its  [accuracy](https://www.datarobot.com/wiki/accuracy/). During the fitting process, you run an algorithm on data for which you know the  [target](https://www.datarobot.com/wiki/target/) variable, known as “labeled” data, and produce a machine learning model. Then, you compare the outcomes to real, observed values of the target variable to determine their accuracy. Next, you use that information to adjust the algorithm’s standard parameters to reduce the level of error, making it more accurate in uncovering patterns and relationships between the rest of its features and the target. You repeat this process until the algorithm finds find the optimal parameters that produce valid, practical, applicable  [insights](https://www.datarobot.com/wiki/insights/)  for your practical business problem.
+
 ## Examples-
 
  1. Google Maps: Find your historical patterns etc.
@@ -38,14 +54,7 @@ It learns from given data and find insights. According to data it makes changes 
  5. Product Recommendations: Amazon
  6. Self Driving Car: Tesla
  7. **Applications using ML**: Netfilx, Amazon, Hulu etc.
-  
-## Machine Learning Life Cycle-
-1. Collecting Data: Collecting data from various sources
-2. Data Wrangling: Formatting raw data. 
-3. Analyse Data: Analysis on data
-4. Train Algorithm: Fit model
-5. Test Algorithm: Test model
-6. Deployment: Deploy in real system
+ 
 
 ## Important Python Libraries for Machine Learning-
 
