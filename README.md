@@ -1,6 +1,6 @@
 # Machine Learning
 Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
-![enter image description here](https://cdn-images-1.medium.com/max/1200/1*ZkZS46p7Lbw-PDBtPMfEEw.jpeg)
+![Machine Learning](https://cdn-images-1.medium.com/max/1200/1*ZkZS46p7Lbw-PDBtPMfEEw.jpeg)
 
 ## Features of Machine Learning-
 1. It uses the data to detect patterns in a dataset and adjust program actions accordingly.
@@ -25,6 +25,68 @@ Machine learning algorithms are often categorized as supervised or unsupervised.
 
 It learns from given data and find insights. According to data it makes changes in program.
 
+## Steps-
+
+![Steps of Machine Learning](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/Steps%20of%20ML.PNG)
+
+1. Collecting Data: Collecting data from various sources
+2. Data Wrangling: Formatting raw data. 
+3. Analyse Data: Analysis on data
+4. Train Algorithm: Fit model
+5. Test Algorithm: Test model
+6. Deployment: Deploy in real system
+
+
+
+# Model Fitting-
+
+## What is Model Fitting?
+
+Fitting is a measure of how well a machine learning  [model](https://www.datarobot.com/wiki/model/)  generalizes to similar data to that on which it was [trained](https://www.datarobot.com/wiki/training-validation-holdout/). A model that is well-fitted produces more accurate outcomes, a model that is [overfitted](https://www.datarobot.com/wiki/overfitting/)  matches the data too closely, and a model that is [underfitted](https://www.datarobot.com/wiki/underfitting/)  doesn’t match closely enough.
+
+Each machine learning  [algorithm](https://www.datarobot.com/wiki/algorithm/)  has a basic set of parameters that can be changed to improve its  [accuracy](https://www.datarobot.com/wiki/accuracy/). During the fitting process, you run an algorithm on data for which you know the  [target](https://www.datarobot.com/wiki/target/) variable, known as “labeled” data, and produce a machine learning model. Then, you compare the outcomes to real, observed values of the target variable to determine their accuracy. Next, you use that information to adjust the algorithm’s standard parameters to reduce the level of error, making it more accurate in uncovering patterns and relationships between the rest of its features and the target. You repeat this process until the algorithm finds find the optimal parameters that produce valid, practical, applicable  [insights](https://www.datarobot.com/wiki/insights/)  for your practical business problem.
+
+## Underfitting and Overfitting and Bestfit-
+
+![Underfitting and Overfitting and Bestfit](https://cdn-images-1.medium.com/max/1200/0*qd-CY_07nUTkPvHZ)
+
+**Underfit-** By looking at the graph on the left side we can predict that the line does not cover all the points shown in the graph. Such model tend to cause underfitting of data .It also called High Bias.
+
+**Overfit-** Where as the graph on right side, shows the predicted line covers all the points in graph. In such condition you can also think that it’s a good graph which cover all the points. But that’s not actually true, the predicted line into the graph covers all points which are noise and outlier. Such model are also responsible to predict poor result due to its complexity. It is also called High Variance.
+
+**Good Fit-** Looking at the middle graph it shows a pretty good predicted line. It covers majority of the point in graph and also maintains the balance between bias and variance.
+
+#### Now the question comes, How to differentiate between overfitting and underfitting?
+
+Solving the issue of bias and variance is really about dealing with over-fitting and under-fitting. Bias is reduced and variance is increased in relation to model complexity. As more and more parameters are added to a model, the complexity of the model rises and variance becomes our primary concern while bias steadily falls.
+
+**Bias**:It gives us how closeness is our predictive model’s to training data after averaging predict value. Generally algorithm has high bias which help them to learn fast and easy to understand but are less flexible. That looses it ability to predict complex problem, so it fails to explain the algorithm bias. This results in underfitting of our model.
+
+Getting more training data will not help much.
+
+![](https://cdn-images-1.medium.com/max/800/1*LXUBOutN4sxPqC_WfQ6avA.png)
+
+**Variance**:It define as deviation of predictions, in simple it is the amount which tell us when its point data value change or a different data is use how much the predicted value will be affected for same model or for different model respectively. Ideally, the predicted value which we predict from model should remain same even changing from one training data-sets to another, but if the model has high variance then model predict value are affect by value of data-sets.
+
+The Graph below shows the path when a learning algorithm suffers from High Variance. This show getting more training data will help to deal with it.
+
+**There are two ways to avoid this overfitting, getting more data and regularization.**
+
+-   **Getting more data** is usually the best solution, a model trained on more data will naturally generalize better.
+-   **Regularization** is done when the latter is not possible, it is the process of modulating the quantity of information that the model can store or to add constraints on what information it is allowed to keep. If the model can only memorize a small number of patterns, the optimization will make it to focus on the most relevant ones, improving the chance of generalizing well.
+
+	**Regularization is done mainly by the following techniques:**
+
+	- **Reducing the model’s size:** Reducing the number of learnable parameters in the model, and with them its learning capacity. The goal is to get to a sweet spot between too much and not enough learning capacity. Unfortunately, there aren’t any magical formulas to determine this balance, it must be tested and evaluated by setting different number of parameters and observing its performance.
+	
+	-  **Adding weight regularization:** In general, the simpler the model the better. As long it can learn well, a simpler model is much less likely to overfit. A common way to achieve this, is to constraint the complexity of the network by forcing its weights to only take small values, regularizating the distribution of weight values. This is done by adding to the loss function of the network a cost associated with having large weights. **The cost comes in two ways-**
+
+	-   **L1 regularization:** The cost is proportional to theabsolutethe value of the weights coefficients (L1 norm of the weights).
+	-   **L2 regularization:** The cost is proportional to the square of the value of the weight coefficients (l2 norm of the weights)
+	![
+](https://cdn-images-1.medium.com/max/800/0*ITv81egIxcJdJEbk)
+
+
 ## Examples-
 
  1. Google Maps: Find your historical patterns etc.
@@ -34,14 +96,7 @@ It learns from given data and find insights. According to data it makes changes 
  5. Product Recommendations: Amazon
  6. Self Driving Car: Tesla
  7. **Applications using ML**: Netfilx, Amazon, Hulu etc.
-  
-## Machine Learning Life Cycle-
-1. Collecting Data: Collecting data from various sources
-2. Data Wrangling: Formatting raw data. 
-3. Analyse Data: Analysis on data
-4. Train Algorithm: Fit model
-5. Test Algorithm: Test model
-6. Deployment: Deploy in real system
+ 
 
 ## Important Python Libraries for Machine Learning-
 
