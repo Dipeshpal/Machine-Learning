@@ -48,7 +48,7 @@ Each machine learning  [algorithm](https://www.datarobot.com/wiki/algorithm/)  h
 
 ## Underfitting and Overfitting and Bestfit-
 
-![Underfitting and Overfitting and Bestfit](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190523171229/overfitting_1.png)
+![Underfitting and Overfitting and Bestfit](https://raw.githubusercontent.com/Dipeshpal/Machine-Learning/master/Raw%20Images/overfitting_2.png)
 
 **Underfit-** By looking at the graph on the left side we can predict that the line does not cover all the points shown in the graph. Such model tend to cause underfitting of data .It also called High Bias.
 
